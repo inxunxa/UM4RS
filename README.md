@@ -5,6 +5,13 @@ This is library will store and manage the _User_ and _Context_ information neede
 
 ------------------------------
 
+## NOTICE:
+### This work will be available upon publication, for now I keep it private.
+If you need any information, want to contribute or need access to the code, please contact me at: inxunxa [a-t] gmail
+
+
+------------------------------
+
 ## Features
 - C# using EntityFramework Code First as ORM strategy
 - Well structured Object-Oriented architecture
