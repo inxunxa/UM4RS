@@ -1,0 +1,595 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ModelORM
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ModelORM
+   ">
+    <meta name="generator" content="docfx 2.7.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <h1 id="UM4RS_ModelORM" data-uid="UM4RS.ModelORM">Class ModelORM
+              </h1>
+              <div class="markdown level0 summary"><p>Maps the defined classes to Database Tables.</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">System.Data.Entity.DbContext</span></div>
+                  <div class="level2"><span class="xref">ModelORM</span></div>
+              </div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <span class="xref">System.Data.Entity.DbContext.Set&lt;TEntity&gt;()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Data.Entity.DbContext.Set(System.Type)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Data.Entity.DbContext.SaveChanges()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Data.Entity.DbContext.SaveChangesAsync()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Data.Entity.DbContext.SaveChangesAsync(System.Threading.CancellationToken)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Data.Entity.DbContext.GetValidationErrors()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Data.Entity.DbContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Data.Entity.DbContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry, System.Collections.Generic.IDictionary&lt;System.Object, System.Object&gt;)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Data.Entity.DbContext.Entry&lt;TEntity&gt;(TEntity)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Data.Entity.DbContext.Entry(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Data.Entity.DbContext.Dispose()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Data.Entity.DbContext.Dispose(System.Boolean)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Data.Entity.DbContext.Database</span>
+                </div>
+                <div>
+                  <span class="xref">System.Data.Entity.DbContext.System</span>
+                </div>
+                <div>
+                  <span class="xref">System.Data.Entity.DbContext.ChangeTracker</span>
+                </div>
+                <div>
+                  <span class="xref">System.Data.Entity.DbContext.Configuration</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ToString()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetHashCode()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.MemberwiseClone()</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:UM4RS</h6>
+              <h6><strong>Assembly</strong>:UM4RS.dll</h6>
+              <h5 id="UM4RS_ModelORM_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public class ModelORM : DbContext, IDisposable, IObjectContextAdapter</code></pre>
+              </div>
+              <h3 id="constructors">Constructors
+              </h3>
+              
+              
+              <a id="UM4RS_ModelORM__ctor_" data-uid="UM4RS.ModelORM.#ctor*"></a>
+              <h4 id="UM4RS_ModelORM__ctor" data-uid="UM4RS.ModelORM.#ctor">ModelORM()</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public ModelORM()</code></pre>
+              </div>
+              <h3 id="properties">Properties
+              </h3>
+              
+              
+              <a id="UM4RS_ModelORM_Activities_" data-uid="UM4RS.ModelORM.Activities*"></a>
+              <h4 id="UM4RS_ModelORM_Activities" data-uid="UM4RS.ModelORM.Activities">Activities</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public DbSet&lt;Activity&gt; Activities { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Data.Entity.DbSet&lt;TEntity&gt;</span>&lt;<a class="xref" href="UM4RS.Activity.Activity.html#UM4RS_Activity_Activity">Activity</a>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="UM4RS_ModelORM_Addresses_" data-uid="UM4RS.ModelORM.Addresses*"></a>
+              <h4 id="UM4RS_ModelORM_Addresses" data-uid="UM4RS.ModelORM.Addresses">Addresses</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public DbSet&lt;Address&gt; Addresses { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Data.Entity.DbSet&lt;TEntity&gt;</span>&lt;<a class="xref" href="UM4RS.Context.Location.Address.html#UM4RS_Context_Location_Address">Address</a>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="UM4RS_ModelORM_ConString_" data-uid="UM4RS.ModelORM.ConString*"></a>
+              <h4 id="UM4RS_ModelORM_ConString" data-uid="UM4RS.ModelORM.ConString">ConString</h4>
+              <div class="markdown level1 summary"><p>The connection string to the Database Server that will be used to persiste the model data</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static string ConString { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="UM4RS_ModelORM_Contexts_" data-uid="UM4RS.ModelORM.Contexts*"></a>
+              <h4 id="UM4RS_ModelORM_Contexts" data-uid="UM4RS.ModelORM.Contexts">Contexts</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public DbSet&lt;Context&gt; Contexts { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Data.Entity.DbSet&lt;TEntity&gt;</span>&lt;<a class="xref" href="UM4RS.Context.Context.html#UM4RS_Context_Context">Context</a>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="UM4RS_ModelORM_Hotels_" data-uid="UM4RS.ModelORM.Hotels*"></a>
+              <h4 id="UM4RS_ModelORM_Hotels" data-uid="UM4RS.ModelORM.Hotels">Hotels</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public DbSet&lt;Hotel&gt; Hotels { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Data.Entity.DbSet&lt;TEntity&gt;</span>&lt;<a class="xref" href="UM4RS.Item.Hotel.html#UM4RS_Item_Hotel">Hotel</a>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="UM4RS_ModelORM_Items_" data-uid="UM4RS.ModelORM.Items*"></a>
+              <h4 id="UM4RS_ModelORM_Items" data-uid="UM4RS.ModelORM.Items">Items</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public DbSet&lt;Item&gt; Items { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Data.Entity.DbSet&lt;TEntity&gt;</span>&lt;<a class="xref" href="UM4RS.Item.Item.html#UM4RS_Item_Item">Item</a>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="UM4RS_ModelORM_Places_" data-uid="UM4RS.ModelORM.Places*"></a>
+              <h4 id="UM4RS_ModelORM_Places" data-uid="UM4RS.ModelORM.Places">Places</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public DbSet&lt;Place&gt; Places { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Data.Entity.DbSet&lt;TEntity&gt;</span>&lt;<a class="xref" href="UM4RS.Context.Location.Place.html#UM4RS_Context_Location_Place">Place</a>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="UM4RS_ModelORM_RatedActivities_" data-uid="UM4RS.ModelORM.RatedActivities*"></a>
+              <h4 id="UM4RS_ModelORM_RatedActivities" data-uid="UM4RS.ModelORM.RatedActivities">RatedActivities</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public DbSet&lt;RatedActivity&gt; RatedActivities { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Data.Entity.DbSet&lt;TEntity&gt;</span>&lt;<a class="xref" href="UM4RS.Activity.RatedActivity.html#UM4RS_Activity_RatedActivity">RatedActivity</a>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="UM4RS_ModelORM_Ratings_" data-uid="UM4RS.ModelORM.Ratings*"></a>
+              <h4 id="UM4RS_ModelORM_Ratings" data-uid="UM4RS.ModelORM.Ratings">Ratings</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public DbSet&lt;Rating&gt; Ratings { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Data.Entity.DbSet&lt;TEntity&gt;</span>&lt;<a class="xref" href="UM4RS.Item.Rating.html#UM4RS_Item_Rating">Rating</a>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="UM4RS_ModelORM_RecreateDataBase_" data-uid="UM4RS.ModelORM.RecreateDataBase*"></a>
+              <h4 id="UM4RS_ModelORM_RecreateDataBase" data-uid="UM4RS.ModelORM.RecreateDataBase">RecreateDataBase</h4>
+              <div class="markdown level1 summary"><p>Recreate the DataBase (set at the begining od the programm)</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool RecreateDataBase { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="UM4RS_ModelORM_RecreateDataBase_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>If set to TRUE, ALL DATA WILL BE LOST. Use for Testing purposes</p>
+</div>
+              
+              
+              <a id="UM4RS_ModelORM_Travels_" data-uid="UM4RS.ModelORM.Travels*"></a>
+              <h4 id="UM4RS_ModelORM_Travels" data-uid="UM4RS.ModelORM.Travels">Travels</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public DbSet&lt;Travel&gt; Travels { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Data.Entity.DbSet&lt;TEntity&gt;</span>&lt;<a class="xref" href="UM4RS.Activity.Travel.html#UM4RS_Activity_Travel">Travel</a>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="UM4RS_ModelORM_Users_" data-uid="UM4RS.ModelORM.Users*"></a>
+              <h4 id="UM4RS_ModelORM_Users" data-uid="UM4RS.ModelORM.Users">Users</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public virtual DbSet&lt;User&gt; Users { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Data.Entity.DbSet&lt;TEntity&gt;</span>&lt;<a class="xref" href="UM4RS.User.User.html#UM4RS_User_User">User</a>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="UM4RS_ModelORM_Videos_" data-uid="UM4RS.ModelORM.Videos*"></a>
+              <h4 id="UM4RS_ModelORM_Videos" data-uid="UM4RS.ModelORM.Videos">Videos</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public DbSet&lt;Video&gt; Videos { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Data.Entity.DbSet&lt;TEntity&gt;</span>&lt;<a class="xref" href="UM4RS.Item.Video.html#UM4RS_Item_Video">Video</a>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <a id="UM4RS_ModelORM_Viewes_" data-uid="UM4RS.ModelORM.Viewes*"></a>
+              <h4 id="UM4RS_ModelORM_Viewes" data-uid="UM4RS.ModelORM.Viewes">Viewes</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public DbSet&lt;View&gt; Viewes { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Data.Entity.DbSet&lt;TEntity&gt;</span>&lt;<a class="xref" href="UM4RS.Activity.View.html#UM4RS_Activity_View">View</a>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">Methods
+              </h3>
+              
+              
+              <a id="UM4RS_ModelORM_OnModelCreating_" data-uid="UM4RS.ModelORM.OnModelCreating*"></a>
+              <h4 id="UM4RS_ModelORM_OnModelCreating_System_Data_Entity_DbModelBuilder_" data-uid="UM4RS.ModelORM.OnModelCreating(System.Data.Entity.DbModelBuilder)">OnModelCreating(DbModelBuilder)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected override void OnModelCreating(DbModelBuilder modelBuilder)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Data.Entity.DbModelBuilder</span></td>
+                    <td><em>modelBuilder</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="overrides">Overrides</h5>
+              <div><span class="xref">System.Data.Entity.DbContext.OnModelCreating(System.Data.Entity.DbModelBuilder)</span></div>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
