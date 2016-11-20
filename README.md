@@ -1,14 +1,7 @@
 # UM4RS
-**User Modeling framework For Recommender Systems**   
-**UM4RS** (UMARS) is an open-source C# .NetFramework-based modeling framework.   
-This is library will store and manage the _User_ and _Context_ information needed for a Context-Aware Recommender Systems (CARS). The model also support the information about the _Items_ the CARS will recommend.
-
-------------------------------
-
-## NOTICE:
-### This work will be available upon publication, for now I keep it private.
-If you need any information, want to contribute or need access to the code, please contact me at: inxunxa [a-t] gmail
-
+**User Modeling framework For Recommender Systems**      
+UM4RS (pronounced UMARS) is an open-source C# .NetFramework-based modeling framework.   
+This is library will store and manage the _User_ and _Context_ and _Activity_ information needed for a Context-Aware Recommender Systems (CARS). The model also support the information about the _Items_ the CARS will recommend.
 
 ------------------------------
 
@@ -18,10 +11,11 @@ If you need any information, want to contribute or need access to the code, plea
 - Scientific investigation project
 - Developer-friendly, by developers, to developers "_developers, developers, developers...._"
 
-
+<br><br><br>
 ## Usage
 ```csharp
-	UM4RS.ModelORM.ConString = @"Data Source=.\SQLEXPRESS;Initial Catalog=UM4RS;Integrated Security=True";
+    // specify the connection string
+    UM4RS.ModelORM.ConString = @"Data Source=.\SQLEXPRESS;Initial Catalog=UM4RS;Integrated Security=True";
 
     // create objects
     var user = new User();
@@ -38,7 +32,7 @@ If you need any information, want to contribute or need access to the code, plea
     };
     user.Contact.Address = address;
 
-    // saving  the root objects will save childs (if changed)
+    // saving  the root object will save children (if changed)
     user.Save();
 
     // or you could save each object
@@ -48,44 +42,78 @@ If you need any information, want to contribute or need access to the code, plea
 ```
 
 
-
+<br>
 ### Creating and Saving objects
+You could create new objects in two ways. Creating the object and ask it to save himself (as shown above).
+
+Or creating the object and saving it through a specfic DataBase connection:
+```csharp
+using (var db = new ModelORM())
+{
+    db.Users.Add(new User()
+    {
+        Contact = new Contact()
+        {
+            FirstName = "Jonh"
+            // ...
+        }
+    });
+    db.SaveChanges();
+}
+    
+```
+
+**What method to use ?**   
+The first method is preferred to use in the framework as this same method of saving object will be implemented for different languages.
+
+The second method will work only for C# developers. The choise is yours.    
 
 
-
-
+<br>
 ### Retrieving data
+Data retrieval can be done through the static method of the model classes. The following example shows:
+1. how to get the list of all records (users in this case).
+2. how to get a record by its id
+3. how to get the records that match a given query.
+
+```csharp
+    var userList = User.GetAll(); 
+    var theUser = User.Get(42);   
+    var singleUser = User.FindAll(x => x.Contact.FirstName == "John");
+```
 
 
-
-
-## Configuration 
+<br><br><br>
+## Installation and Configuration 
 - Include **UM4RS**.dll in your project References
 
 - Include a Reference to **EntityFramework**:   
-	Manual: Reference the provided EntityFramework.dll   
-	 Nuget: Install-Package EntityFramework
+    Manual: Reference the provided EntityFramework.dll   
+     Nuget: Install-Package EntityFramework
 
 - Include a Reference for **EntityFramework database provider**:
-	- For SQL Server: EntityFramework.SqlServer
-    	Manual: Reference the provided EntityFramework.SqlServer.dll
-    	 Nuget: Install-Package EntityFramework.SqlServer
+    - For SQL Server: EntityFramework.SqlServer
+        Manual: Reference the provided EntityFramework.SqlServer.dll
+         Nuget: Install-Package EntityFramework.SqlServer
 
-	- For MySql database server:
-    	 Nuget: Install-Package MySql.Data.Entity.EF6
+    - For MySql database server:
+         Nuget: Install-Package MySql.Data.Entity.EF6
          More info: [Mysql page](https://dev.mysql.com/doc/connector-net/en/connector-net-entityframework60.html)
 
-  
+
+<br>
 ### Connection String
 - Configure the _ConnectionString_ to allow the model comunicate with a database.
 Ensure the connection string is configure before any dabase involved action.
 
 ```csharp
-	UM4RS.ModelORM.ConString = "my connection string here";   
+    UM4RS.ModelORM.ConString = "my connection string here";   
     // example: @"Data Source=.\SQLEXPRESS;Initial Catalog=UM4RS;Integrated Security=True";
 ```
 for more detail of how to create/configure a connection string visiti [HERE](https://www.connectionstrings.com/sql-server/)
 
+
+<br><br>
 ## Entity IDs 
 All _Entity_ subclasses will have an ID, that represent the KEY column of the Database.
 By Detault the ID is **Autoincrementable** and has a private **set**.
@@ -99,14 +127,14 @@ When the ID is non autogenerated, is you retrieve objects with Class.Get(id), th
 ```csharp
     var usr = new User()
     {
-    	Id = 1
+        Id = 1
     };
     usr.Save(); 
     // until here no problem, you assigned your own ID to the Entity
 
-	usr.Demographic = new Demographic()
+    usr.Demographic = new Demographic()
     {
-    	Gender = Gender.Female
+        Gender = Gender.Female
     };
     usr.Save(); // <- Exception raise here
     // EF tried to create a new (User) record with the same Id
@@ -116,14 +144,14 @@ If you need (really want) to asign the ID values, we recommend working with crea
 ```csharp
     using (var db = new ModelORM())
     {
-    	var usr = new User() {Id = 1};
-    	db.Users.Add(usr);
-    	db.SaveChanges();
+        var usr = new User() {Id = 1};
+        db.Users.Add(usr);
+        db.SaveChanges();
 
-		usr.Demographic = new Demographic()
-		{
-			Gender = Gender.Male
-		};
-		db.SaveChanges();
-	}
+        usr.Demographic = new Demographic()
+        {
+            Gender = Gender.Male
+        };
+        db.SaveChanges();
+    }
 ```
