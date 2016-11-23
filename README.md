@@ -5,5 +5,5 @@
  
  --------
  ** NOTICE **:   
- # This work will be available upon publication, for now I keep it private.
+ # This work will be public available upon publication, for now I keep it private.
  If you need any information, want to contribute or need access to the code, please contact me at: inxunxa [a-t] gmail
