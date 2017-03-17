@@ -60,7 +60,7 @@ If you need any information, want to contribute or need access to the code, plea
 
 
 ## Configuration 
-- Include **UM4RS**.dll in your project References
+- Include **UM4RS**.dll and Linq2CSV.dll in your project References
 
 - Include a Reference to **EntityFramework**:   
 	Manual: Reference the provided EntityFramework.dll   
