@@ -80,50 +80,50 @@
 <pre><code class="lang-csharp">    // specify the connection string
     UM4RS.ModelORM.ConString = @&quot;Data Source=.\SQLEXPRESS;Initial Catalog=UM4RS;Integrated Security=True&quot;;
 
-    // create objects
-    var user = new User();
-    user.Contact = new Contact();
-    user.Contact.FirstName = &quot;John&quot;;
-    user.Contact.LastName = &quot;Doe&quot;;
-
-    // or using object initializers
-    var address = new Address()
+    // create a db Connection
+    using (var db = new ModelORM())
     {
-       Street = &quot;One Microsoft Way&quot;,
-       City = &quot;Redmond&quot;,
-       State = &quot;Washington&quot;
-    };
-    user.Contact.Address = address;
+        // create objects
+        var user = new User();
+        user.Contact = new Contact();
+        user.Contact.FirstName = &quot;John&quot;;
+        user.Contact.LastName = &quot;Doe&quot;;
 
-    // saving  the root object will save children (if changed)
-    user.Save();
-
-    // or you could save each object
-    //user.Contact.Address.Save();
-    //user.Contact.Save();
-    //user.Save();
+        // or using object initializers
+        var address = new Address()
+        {
+           Street = &quot;One Microsoft Way&quot;,
+           City = &quot;Redmond&quot;,
+           State = &quot;Washington&quot;
+        };
+        user.Contact.Address = address;
+        
+        // save the data (saving  the root object will save children)
+        db.Users.Add(user);
+        db.SaveChanges();
+    }    
 </code></pre><p><a href="https://inxunxa.github.io/UM4RS/articles/intro.html" target="_blank">Read the documentation</a></p>
 <p><a href="https://inxunxa.github.io/UM4RS/articles/classes.html" target="_blank">See the list of classes</a></p>
 <p>Or explore the framework interactively using VisualStudio Intellisence</p>
 <p><img src="../images/intellisence.png" alt="Explore Framework"></p>
 <p><br></p>
 <h3 id="creating-and-saving-objects">Creating and Saving objects</h3>
-<p>You could create new objects in two ways. Creating the object and ask it to save himself (as shown above).</p>
-<p>Or creating the object and saving it through a specfic DataBase connection:</p>
-<pre><code class="lang-csharp">using (var db = new ModelORM())
-{
-    db.Users.Add(new User()
-    {
-        Contact = new Contact()
-        {
-            FirstName = &quot;Jonh&quot;
-            // ...
-        }
-    });
-    db.SaveChanges();
-}
-</code></pre><p><strong>What method to use ?</strong><br>The first method is preferred to use in the framework as this same method of saving object will be implemented for different languages.</p>
-<p>The second method will work only for C# developers. The choise is yours.    </p>
+<p>You could create new objects in two ways. Creating a database connection, add objects and save changes.</p>
+<p>Or creating instances of model classes, ask it to save himself (as shown next)</p>
+<pre><code class="lang-csharp">
+    // create instance(s)
+    var user = new User();
+    user.Contact = new Contact();
+    user.Contact.FirstName = &quot;John&quot;;
+    user.Contact.LastName = &quot;Doe&quot;;
+    
+    // save it through instance method
+    user.Save();
+    
+    // or through Class method
+    User.Save(user);
+</code></pre><p><strong>What method to use ?</strong><br>The first method is preferred as it will track changes to objects, and update them as needed.</p>
+<p>The second method will work only as well, but is important to note that it <b>DOES NOT TRACK CHANGES</b>, and saving an object composed by other objects(already in db) will cause duplication.</p>
 <p><br></p>
 <h3 id="retrieving-data">Retrieving data</h3>
 <p>Data retrieval can be done through the static method of the model classes. The following example shows:</p>
