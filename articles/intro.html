@@ -107,24 +107,7 @@
 <p>Or explore the framework interactively using VisualStudio Intellisence</p>
 <p><img src="../images/intellisence.png" alt="Explore Framework"></p>
 <p><br></p>
-<h3 id="creating-and-saving-objects">Creating and Saving objects</h3>
-<p>You could create new objects in two ways. Creating a database connection, add objects and save changes.</p>
-<p>Or creating instances of model classes, ask it to save himself (as shown next)</p>
-<pre><code class="lang-csharp">    // create instance(s)
-    var user = new User();
-    user.Contact = new Contact();
-    user.Contact.FirstName = &quot;John&quot;;
-    user.Contact.LastName = &quot;Doe&quot;;
-    
-    // save it through instance method
-    user.Save();
-    
-    // or through Class method
-    User.Save(user);
-</code></pre><p><strong>What method to use ?</strong><br>The first method is preferred as it will track changes to objects, and update them as needed.</p>
-<p>The second method will work as well, but is important to note that it <b>DOES NOT TRACK CHANGES</b>, and saving an object composed by other objects (already in db) could cause duplications.</p>
-<p><b>TL;DR</b> Dont use second method to save/update composite objects.</p>
-<p><br></p>
+
 <h3 id="retrieving-data">Retrieving data</h3>
 <p>Data retrieval can be done through the static method of the model classes. The following example shows:</p>
 <ol>
