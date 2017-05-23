@@ -50,7 +50,7 @@ This is library will store and manage the _User_ and _Context_ and _Activity_ in
 
 Or explore the framework interactively using VisualStudio Intellisence
 
-![Explore Framework](../images/intellisence.png)
+![Explore Framework](https://inxunxa.github.io/UM4RS/images/intellisence.png)
 
 ### Retrieving data
 
