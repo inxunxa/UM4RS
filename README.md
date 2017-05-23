@@ -83,7 +83,7 @@ Data retrieval can be done through the static method of the model classes. The f
 
 ### Connection String
 
-*   Configure the _ConnectionString_ to allow the model comunicate with a database. Ensure the connection string is configure before any dabase involved action.
+*   Configure the _ConnectionString_ to allow the model communicate with a database. Ensure the connection string is configure before any database involved action.
 
 ```
     UM4RS.ModelORM.ConString = "my connection string here";   
@@ -91,11 +91,11 @@ Data retrieval can be done through the static method of the model classes. The f
 
 ```
 
-for more detail of how to create/configure a connection string visiti [HERE](https://www.connectionstrings.com/sql-server/)
+For more details of how to create/configure a connection string visit [HERE](https://www.connectionstrings.com/sql-server/)
 
 ## Entity IDs
 
-All _Entity_ subclasses will have an ID, that represent the KEY column of the Database. By Detault the ID is **Autoincrementable** and has a private **set**. If you want to asign your own values to the ID, annotate the property in the desired class with:
+All _Entity_ subclasses will have an ID, that represent the KEY column of the Database. By Detault the ID is **Autoincrementable** and has a private **set**. If you want to assign your own values to the ID, annotate the property in the desired class with:
 
 ```
     [DatabaseGenerated(DatabaseGeneratedOption.None)]
@@ -121,7 +121,7 @@ All _Entity_ subclasses will have an ID, that represent the KEY column of the Da
 
 ```
 
-If you need (really want) to asign the ID values, we recommend working with creating/updating entities this way:
+If you need (really want) to assign the ID values, we recommend working with creating/updating entities this way:
 
 ```
     using (var db = new ModelORM())
