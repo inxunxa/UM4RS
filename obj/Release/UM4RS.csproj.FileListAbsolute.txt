@@ -1,0 +1,14 @@
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Release\UM4RS.dll.config
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Release\UM4RS.dll
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Release\UM4RS.pdb
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Release\EntityFramework.BulkInsert.dll
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Release\EntityFramework.dll
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Release\EntityFramework.SqlServer.dll
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Release\Linq2Csv.dll
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Release\EntityFramework.xml
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Release\EntityFramework.BulkInsert.pdb
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Release\EntityFramework.SqlServer.xml
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Release\Linq2Csv.pdb
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\obj\Release\UM4RS.csprojResolveAssemblyReference.cache
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\obj\Release\UM4RS.dll
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\obj\Release\UM4RS.pdb

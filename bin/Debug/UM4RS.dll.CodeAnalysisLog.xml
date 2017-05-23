@@ -1,0 +1,2056 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="f:\programs\vs2015\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="14.0">
+ <Namespaces>
+  <Namespace Name="UM4RS">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'UM4RS' with another namespace.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="UM4RS.Context">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'UM4RS.Context' with another namespace.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="UM4RS.Context.Physicalcondition">
+   <Messages>
+    <Message Id="Physicalcondition" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Physicalcondition' in namespace name 'UM4RS.Context.Physicalcondition'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="UM4RS.Context.Resource">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'UM4RS.Context.Resource' with another namespace.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="UM4RS.Context.Social">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'UM4RS.Context.Social' with another namespace.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="UM4RS.User">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'UM4RS.User' with another namespace.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="UM4RS.User.Contact">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'UM4RS.User.Contact' with another namespace.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="UM4RS.User.Emotion">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'UM4RS.User.Emotion' with another namespace.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="UM4RS.User.InterestPreferences">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'UM4RS.User.InterestPreferences' with another namespace.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="UM4RS.User.Personality">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'UM4RS.User.Personality' with another namespace.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="UM4RS.User.Role">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'UM4RS.User.Role' with another namespace.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+ </Namespaces>
+ <Targets>
+  <Target Name="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\UM4RS.dll">
+   <Modules>
+    <Module Name="um4rs.dll">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'UM4RS.dll' with a strong name key.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">Mark 'UM4RS.dll' with CLSCompliant(true) because it exposes externally visible types.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="UM4RS">
+       <Types>
+        <Type Name="ModelEntity`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Count()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="230">Remove 'ModelEntity&lt;TObject&gt;.Count()' from 'ModelEntity&lt;TObject&gt;' or make it an instance member.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CountAsync()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error">Remove 'ModelEntity&lt;TObject&gt;.CountAsync()' from 'ModelEntity&lt;TObject&gt;' or make it an instance member.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Delete(!0)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="208">Remove 'ModelEntity&lt;TObject&gt;.Delete(TObject)' from 'ModelEntity&lt;TObject&gt;' or make it an instance member.</Issue>
+            </Message>
+            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="208">In method 'ModelEntity&lt;TObject&gt;.Delete(TObject)', consider providing a more meaningful name than parameter name 't'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DeleteAsync(!0)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'ModelEntity&lt;TObject&gt;.DeleteAsync(TObject)', consider providing a more meaningful name than parameter name 't'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Dispose()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CallGCSuppressFinalizeCorrectly" Category="Microsoft.Usage" CheckId="CA1816" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+             <Issue Name="NotCalled" Certainty="75" Level="CriticalWarning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="261">Change 'ModelEntity&lt;TObject&gt;.Dispose()' to call 'GC.SuppressFinalize(object)'. This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it.</Issue>
+            </Message>
+            <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="DisposeImplementation" Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="261">Modify 'ModelEntity&lt;TObject&gt;.Dispose()' so that it calls Dispose(true), then calls GC.SuppressFinalize on the current object instance ('this' or 'Me' in Visual Basic), and then returns.</Issue>
+             <Issue Name="DisposeSignature" Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="261">Ensure that 'ModelEntity&lt;TObject&gt;.Dispose()' is declared as public and sealed.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Find(System.Linq.Expressions.Expression`1&lt;System.Func`2&lt;!0,System.Boolean&gt;&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="90">Remove 'ModelEntity&lt;TObject&gt;.Find(Expression&lt;Func&lt;TObject, bool&gt;&gt;)' from 'ModelEntity&lt;TObject&gt;' or make it an instance member.</Issue>
+            </Message>
+            <Message TypeName="DoNotNestGenericTypesInMemberSignatures" Category="Microsoft.Design" CheckId="CA1006" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalError" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="90">Consider a design where 'ModelEntity&lt;TObject&gt;.Find(Expression&lt;Func&lt;TObject, bool&gt;&gt;)' doesn't nest generic type 'Expression&lt;Func&lt;TObject, bool&gt;&gt;'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FindAll(System.Linq.Expressions.Expression`1&lt;System.Func`2&lt;!0,System.Boolean&gt;&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="113">Remove 'ModelEntity&lt;TObject&gt;.FindAll(Expression&lt;Func&lt;TObject, bool&gt;&gt;)' from 'ModelEntity&lt;TObject&gt;' or make it an instance member.</Issue>
+            </Message>
+            <Message TypeName="DoNotNestGenericTypesInMemberSignatures" Category="Microsoft.Design" CheckId="CA1006" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalError" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="113">Consider a design where 'ModelEntity&lt;TObject&gt;.FindAll(Expression&lt;Func&lt;TObject, bool&gt;&gt;)' doesn't nest generic type 'Expression&lt;Func&lt;TObject, bool&gt;&gt;'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FindAllAsync(System.Linq.Expressions.Expression`1&lt;System.Func`2&lt;!0,System.Boolean&gt;&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error">Remove 'ModelEntity&lt;TObject&gt;.FindAllAsync(Expression&lt;Func&lt;TObject, bool&gt;&gt;)' from 'ModelEntity&lt;TObject&gt;' or make it an instance member.</Issue>
+            </Message>
+            <Message TypeName="DoNotNestGenericTypesInMemberSignatures" Category="Microsoft.Design" CheckId="CA1006" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalError">Consider a design where 'ModelEntity&lt;TObject&gt;.FindAllAsync(Expression&lt;Func&lt;TObject, bool&gt;&gt;)' doesn't nest generic type 'Expression&lt;Func&lt;TObject, bool&gt;&gt;'.</Issue>
+             <Issue Certainty="95" Level="CriticalError">Consider a design where 'ModelEntity&lt;TObject&gt;.FindAllAsync(Expression&lt;Func&lt;TObject, bool&gt;&gt;)' doesn't nest generic type 'Task&lt;ICollection&lt;TObject&gt;&gt;'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FindAsync(System.Linq.Expressions.Expression`1&lt;System.Func`2&lt;!0,System.Boolean&gt;&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error">Remove 'ModelEntity&lt;TObject&gt;.FindAsync(Expression&lt;Func&lt;TObject, bool&gt;&gt;)' from 'ModelEntity&lt;TObject&gt;' or make it an instance member.</Issue>
+            </Message>
+            <Message TypeName="DoNotNestGenericTypesInMemberSignatures" Category="Microsoft.Design" CheckId="CA1006" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalError">Consider a design where 'ModelEntity&lt;TObject&gt;.FindAsync(Expression&lt;Func&lt;TObject, bool&gt;&gt;)' doesn't nest generic type 'Expression&lt;Func&lt;TObject, bool&gt;&gt;'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Get(System.Int32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="37">Remove 'ModelEntity&lt;TObject&gt;.Get(int)' from 'ModelEntity&lt;TObject&gt;' or make it an instance member.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Get(System.Linq.Expressions.Expression`1&lt;System.Func`2&lt;!0,System.Boolean&gt;&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="47">Remove 'ModelEntity&lt;TObject&gt;.Get(Expression&lt;Func&lt;TObject, bool&gt;&gt;)' from 'ModelEntity&lt;TObject&gt;' or make it an instance member.</Issue>
+            </Message>
+            <Message TypeName="DoNotNestGenericTypesInMemberSignatures" Category="Microsoft.Design" CheckId="CA1006" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalError" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="47">Consider a design where 'ModelEntity&lt;TObject&gt;.Get(Expression&lt;Func&lt;TObject, bool&gt;&gt;)' doesn't nest generic type 'Expression&lt;Func&lt;TObject, bool&gt;&gt;'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetAll()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="68">Remove 'ModelEntity&lt;TObject&gt;.GetAll()' from 'ModelEntity&lt;TObject&gt;' or make it an instance member.</Issue>
+            </Message>
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="68">Change 'ModelEntity&lt;TObject&gt;.GetAll()' to a property if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetAllAsync()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error">Remove 'ModelEntity&lt;TObject&gt;.GetAllAsync()' from 'ModelEntity&lt;TObject&gt;' or make it an instance member.</Issue>
+            </Message>
+            <Message TypeName="DoNotNestGenericTypesInMemberSignatures" Category="Microsoft.Design" CheckId="CA1006" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalError">Consider a design where 'ModelEntity&lt;TObject&gt;.GetAllAsync()' doesn't nest generic type 'Task&lt;ICollection&lt;TObject&gt;&gt;'.</Issue>
+            </Message>
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning">Change 'ModelEntity&lt;TObject&gt;.GetAllAsync()' to a property if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetAsync(System.Int32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error">Remove 'ModelEntity&lt;TObject&gt;.GetAsync(int)' from 'ModelEntity&lt;TObject&gt;' or make it an instance member.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Save(!0)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="135">Remove 'ModelEntity&lt;TObject&gt;.Save(TObject)' from 'ModelEntity&lt;TObject&gt;' or make it an instance member.</Issue>
+            </Message>
+            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="135">In method 'ModelEntity&lt;TObject&gt;.Save(TObject)', consider providing a more meaningful name than parameter name 't'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SaveAllAsync(System.Collections.Generic.IEnumerable`1&lt;!0&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error">Remove 'ModelEntity&lt;TObject&gt;.SaveAllAsync(IEnumerable&lt;TObject&gt;)' from 'ModelEntity&lt;TObject&gt;' or make it an instance member.</Issue>
+            </Message>
+            <Message TypeName="DoNotNestGenericTypesInMemberSignatures" Category="Microsoft.Design" CheckId="CA1006" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalError">Consider a design where 'ModelEntity&lt;TObject&gt;.SaveAllAsync(IEnumerable&lt;TObject&gt;)' doesn't nest generic type 'Task&lt;IEnumerable&lt;TObject&gt;&gt;'.</Issue>
+            </Message>
+            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'ModelEntity&lt;TObject&gt;.SaveAllAsync(IEnumerable&lt;TObject&gt;)', correct the spelling of 't' in parameter name 'tList' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SaveAsync(!0)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error">Remove 'ModelEntity&lt;TObject&gt;.SaveAsync(TObject)' from 'ModelEntity&lt;TObject&gt;' or make it an instance member.</Issue>
+            </Message>
+            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'ModelEntity&lt;TObject&gt;.SaveAsync(TObject)', consider providing a more meaningful name than parameter name 't'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SavedAll(System.Collections.Generic.IEnumerable`1&lt;!0&gt;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="183">Remove 'ModelEntity&lt;TObject&gt;.SavedAll(IEnumerable&lt;TObject&gt;)' from 'ModelEntity&lt;TObject&gt;' or make it an instance member.</Issue>
+            </Message>
+            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelEntity.cs" Line="183">In method 'ModelEntity&lt;TObject&gt;.SavedAll(IEnumerable&lt;TObject&gt;)', correct the spelling of 't' in parameter name 'tList' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ModelORM" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="ORM" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'ORM' in type name 'ModelORM' by changing it to 'Orm'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ConString" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelORM.cs" Line="44">Correct the spelling of the unrecognized token 'ConString' in the literal '"Cant connect to DataBase. ConString have not been set"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OnModelCreating(System.Data.Entity.DbModelBuilder)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelORM.cs" Line="53">In externally visible method 'ModelORM.OnModelCreating(DbModelBuilder)', validate parameter 'modelBuilder' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RecreateDataBase" Kind="Property" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="DataBase" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS" File="ModelORM.cs" Line="29">The compound word 'DataBase' in member name 'ModelORM.RecreateDataBase' exists as a discrete term. If your usage is intended to be single word, case it as 'Database' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.Activity">
+       <Types>
+        <Type Name="Activity" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">The type name 'Activity' conflicts in whole or in part with the namespace name 'UM4RS.Activity'. Change either name to eliminate the conflict.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Activity" File="Activity.cs" Line="26">'Activity.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#TimeStamp" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="TimeStamp" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Activity" File="Activity.cs" Line="48">The compound word 'TimeStamp' in member name 'Activity.TimeStamp' exists as a discrete term. If your usage is intended to be single word, case it as 'Timestamp' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Eat" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dish" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Activity" File="Eat.cs" Line="24">Change 'Eat.Dish' to be read-only by removing the property setter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Purchase" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Item" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Activity" File="Purchase.cs" Line="23">Change 'Purchase.Item' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Activity" File="Purchase.cs" Line="23">Change 'List&lt;Item&gt;' in 'Purchase.Item' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Place" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Activity" File="Purchase.cs" Line="28">Change 'Purchase.Place' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Activity" File="Purchase.cs" Line="28">Change 'List&lt;Place&gt;' in 'Purchase.Place' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.Context">
+       <Types>
+        <Type Name="Context" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">The type name 'Context' conflicts in whole or in part with the namespace name 'UM4RS.Context'. Change either name to eliminate the conflict.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context" File="Context.cs" Line="32">'Context.Context()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;Context..ctor()&#xD;&#xA;Context.set_SocialRelation(ICollection&lt;SocialRelation&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context" File="Context.cs" Line="23">'Context.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#SocialRelation" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context" File="Context.cs" Line="29">Change 'Context.SocialRelation' to be read-only by removing the property setter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.Context.Computing">
+       <Types>
+        <Type Name="Computing" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">The type name 'Computing' conflicts in whole or in part with the namespace name 'UM4RS.Context.Computing'. Change either name to eliminate the conflict.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Hardware" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="Computing.cs" Line="17">Change 'Computing.Hardware' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="Computing.cs" Line="17">Change 'List&lt;Hardware&gt;' in 'Computing.Hardware' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="Computing.cs" Line="16">'Computing.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Device" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Display" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="Device.cs" Line="20">Change 'Device.Display' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="Device.cs" Line="20">Change 'List&lt;Display&gt;' in 'Device.Display' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Os" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Os" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="Device.cs" Line="16">Correct the casing of 'Os' in member name 'Device.Os' by changing it to 'OS'.</Issue>
+            </Message>
+            <Message Id="Os" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="Device.cs" Line="16">Correct the spelling of 'Os' in member name 'Device.Os' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Port" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="Device.cs" Line="21">Change 'Device.Port' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="Device.cs" Line="21">Change 'List&lt;HardwarePort&gt;' in 'Device.Port' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Display" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Ppi" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Ppi" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="Display.cs" Line="17">Correct the spelling of 'Ppi' in member name 'Display.Ppi' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Resolution" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="Display.cs" Line="19">Change 'Display.Resolution' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="Display.cs" Line="19">Change 'List&lt;DisplayResolution&gt;' in 'Display.Resolution' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DisplayResolution" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="DisplayResolution.cs" Line="15">'DisplayResolution.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Hardware" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="Hardware.cs" Line="15">'Hardware.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="HardwarePort" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DVI" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="DVI" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'DVI' in member name 'HardwarePort.DVI' by changing it to 'Dvi'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DVIMicro" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="DVI" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'DVI' in member name 'HardwarePort.DVIMicro' by changing it to 'Dvi'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DVIMini" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="DVI" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'DVI' in member name 'HardwarePort.DVIMini' by changing it to 'Dvi'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ESata" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Sata" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Sata' in member name 'HardwarePort.ESata' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Firewire" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Firewire" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Firewire' in member name 'HardwarePort.Firewire' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#HDMI" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="HDMI" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'HDMI' in member name 'HardwarePort.HDMI' by changing it to 'Hdmi'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SCSI" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="SCSI" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'SCSI' in member name 'HardwarePort.SCSI' by changing it to 'Scsi'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#USB1" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="USB" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'USB' in member name 'HardwarePort.USB1' by changing it to 'Usb'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#USB2" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="USB" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'USB' in member name 'HardwarePort.USB2' by changing it to 'Usb'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#USB3" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="USB" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'USB' in member name 'HardwarePort.USB3' by changing it to 'Usb'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UsbC" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Usb" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Usb' in member name 'HardwarePort.UsbC' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#VGA" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="VGA" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'VGA' in member name 'HardwarePort.VGA' by changing it to 'Vga'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MobileDevice" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Sensor" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="MobileDevice.cs" Line="16">Change 'MobileDevice.Sensor' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="MobileDevice.cs" Line="16">Change 'List&lt;Sensor&gt;' in 'MobileDevice.Sensor' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Network" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="Network.cs" Line="15">'Network.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NetworkType" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#_2G" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Remove the underscores from member name 'NetworkType._2G'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_3G" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Remove the underscores from member name 'NetworkType._3G'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_4G" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Remove the underscores from member name 'NetworkType._4G'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GSM" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="GSM" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'GSM' in member name 'NetworkType.GSM' by changing it to 'Gsm'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LTE" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="LTE" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'LTE' in member name 'NetworkType.LTE' by changing it to 'Lte'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RDID" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="RDID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'RDID' in member name 'NetworkType.RDID' by changing it to 'Rdid'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WiFi" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Fi" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'Fi' in member name 'NetworkType.WiFi' by changing it to 'FI'.</Issue>
+            </Message>
+            <Message Id="Wi" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'Wi' in member name 'NetworkType.WiFi' by changing it to 'WI'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SmartPhone" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="SmartPhone" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+           <Issue Name="TypeShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'SmartPhone' in type name 'SmartPhone' exists as a discrete term. If your usage is intended to be single word, case it as 'Smartphone'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Network" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="SmartPhone.cs" Line="15">Change 'SmartPhone.Network' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="SmartPhone.cs" Line="15">Change 'List&lt;Network&gt;' in 'SmartPhone.Network' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Software" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="Software.cs" Line="15">'Software.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#Os" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Os" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="Software.cs" Line="19">Correct the casing of 'Os' in member name 'Software.Os' by changing it to 'OS'.</Issue>
+            </Message>
+            <Message Id="Os" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Computing" File="Software.cs" Line="19">Correct the spelling of 'Os' in member name 'Software.Os' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.Context.Location">
+       <Types>
+        <Type Name="Address" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Location" File="Address.cs" Line="16">'Address.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Coordinate" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Location" File="Coordinate.cs" Line="15">'Coordinate.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DigitalLocation" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Location" File="DigitalLocation.cs" Line="15">'DigitalLocation.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#Url" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="UriPropertiesShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1056" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Location" File="DigitalLocation.cs" Line="16">Change the type of property 'DigitalLocation.Url' from string to System.Uri.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PhysicalLocation" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Location" File="PhysicalLocation.cs" Line="15">'PhysicalLocation.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#InDoor" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="InDoor" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Location" File="PhysicalLocation.cs" Line="17">The compound word 'InDoor' in member name 'PhysicalLocation.InDoor' exists as a discrete term. If your usage is intended to be single word, case it as 'Indoor' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PlaceType" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Appertment" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Appertment" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Appertment' in member name 'PlaceType.Appertment' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MovieTheather" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Theather" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Theather' in member name 'PlaceType.MovieTheather' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.Context.Physicalcondition">
+       <Types>
+        <Type Name="Light" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\PhysicalCondition" File="Light.cs" Line="15">'Light.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Noise" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\PhysicalCondition" File="Noise.cs" Line="15">'Noise.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PhysicalCondition" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">The type name 'PhysicalCondition' conflicts in whole or in part with the namespace name 'UM4RS.Context.Physicalcondition'. Change either name to eliminate the conflict.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\PhysicalCondition" File="PhysicalCondition.cs" Line="17">'PhysicalCondition.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Weather" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\PhysicalCondition" File="Weather.cs" Line="17">'Weather.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.Context.Resource">
+       <Types>
+        <Type Name="Resource" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">The type name 'Resource' conflicts in whole or in part with the namespace name 'UM4RS.Context.Resource'. Change either name to eliminate the conflict.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Resource" File="Resource.cs" Line="15">'Resource.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.Context.Social">
+       <Types>
+        <Type Name="SocialRelation" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Social" File="SocialRelation.cs" Line="18">'SocialRelation.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#User" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Social" File="SocialRelation.cs" Line="20">Change 'SocialRelation.User' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Social" File="SocialRelation.cs" Line="20">Change 'List&lt;User&gt;' in 'SocialRelation.User' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.Context.Time">
+       <Types>
+        <Type Name="Time" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">The type name 'Time' conflicts in whole or in part with the namespace name 'UM4RS.Context.Time'. Change either name to eliminate the conflict.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Time" File="Time.cs" Line="18">'Time.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#TimeStamp" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="TimeStamp" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Context\Time" File="Time.cs" Line="19">The compound word 'TimeStamp' in member name 'Time.TimeStamp' exists as a discrete term. If your usage is intended to be single word, case it as 'Timestamp' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.Item">
+       <Types>
+        <Type Name="AudioService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Item" File="AudioService.cs" Line="16">'AudioService.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Dish" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Picture" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Item" File="Dish.cs" Line="21">Change 'Dish.Picture' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Item" File="Dish.cs" Line="21">Change 'List&lt;Photo&gt;' in 'Dish.Picture' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Item" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">The type name 'Item' conflicts in whole or in part with the namespace name 'UM4RS.Item'. Change either name to eliminate the conflict.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="NewsArticle" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Picture" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Item" File="NewsArticle.cs" Line="19">Change 'NewsArticle.Picture' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Item" File="NewsArticle.cs" Line="19">Change 'List&lt;Photo&gt;' in 'NewsArticle.Picture' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Rating" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Item" File="Rating.cs" Line="17">'Rating.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#Type" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertyNamesShouldNotMatchGetMethods" Category="Microsoft.Naming" CheckId="CA1721" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="BaseType" Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Item" File="Rating.cs" Line="23">The property name 'Rating.Type' is confusing given the existence of inherited method 'object.GetType()'. Rename or remove this property.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Restaurant" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dish" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Item" File="Restaurant.cs" Line="18">Change 'Restaurant.Dish' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Item" File="Restaurant.cs" Line="18">Change 'List&lt;Dish&gt;' in 'Restaurant.Dish' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Video" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Actors" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Item" File="Video.cs" Line="57">Change 'Video.Actors' to be read-only by removing the property setter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Directors" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Item" File="Video.cs" Line="54">Change 'Video.Directors' to be read-only by removing the property setter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ListOfActors" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_ListOfActors(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="DependsOnFix">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Item" File="Video.cs" Line="83">In externally visible method 'Video.ListOfActors.set(string)', validate parameter 'value' before using it.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#ListOfDirectors" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_ListOfDirectors(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="DependsOnFix">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Item" File="Video.cs" Line="90">In externally visible method 'Video.ListOfDirectors.set(string)', validate parameter 'value' before using it.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="VideoGenres" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'VideoGenres' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#SciFi" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Fi" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'Fi' in member name 'VideoGenres.SciFi' by changing it to 'FI'.</Issue>
+            </Message>
+            <Message Id="Sci" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Sci' in member name 'VideoGenres.SciFi' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="VideoService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\Item" File="VideoService.cs" Line="16">'VideoService.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.User">
+       <Types>
+        <Type Name="User" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">The type name 'User' conflicts in whole or in part with the namespace name 'UM4RS.User'. Change either name to eliminate the conflict.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Emotions" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User" File="User.cs" Line="42">Change 'User.Emotions' to be read-only by removing the property setter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetOrCreate(System.Int32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User" File="User.cs" Line="97">In method 'User.GetOrCreate(int)', object 'new User()' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'new User()' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Personality" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User" File="User.cs" Line="48">Change 'User.Personality' to be read-only by removing the property setter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Roles" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User" File="User.cs" Line="36">Change 'User.Roles' to be read-only by removing the property setter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SocialNetworks" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User" File="User.cs" Line="84">Change 'User.SocialNetworks' to be read-only by removing the property setter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.User.Contact">
+       <Types>
+        <Type Name="Contact" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">The type name 'Contact' conflicts in whole or in part with the namespace name 'UM4RS.User.Contact'. Change either name to eliminate the conflict.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Contact" File="Contact.cs" Line="18">'Contact.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SocialNetwork" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Url" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="UriPropertiesShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1056" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Contact" File="SocialNetwork.cs" Line="40">Change the type of property 'SocialNetwork.Url' from string to System.Uri.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SocialNetworkType" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GitHub" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Git" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Git' in member name 'SocialNetworkType.GitHub' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Instagram" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Instagram" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Instagram' in member name 'SocialNetworkType.Instagram' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Pinterest" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Pinterest" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Pinterest' in member name 'SocialNetworkType.Pinterest' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Tumblr" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Tumblr" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Tumblr' in member name 'SocialNetworkType.Tumblr' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WhatsApp" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Whats" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Whats' in member name 'SocialNetworkType.WhatsApp' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.User.Demographics">
+       <Types>
+        <Type Name="Demographic" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Demographics" File="Demographic.cs" Line="24">'Demographic.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#MAge" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="MAge" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Demographics" File="Demographic.cs" Line="40">The compound word 'MAge' in member name 'Demographic.MAge' exists as a discrete term. If your usage is intended to be single word, case it as 'Mage' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SpokenLanguages" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Demographics" File="Demographic.cs" Line="29">Change 'Demographic.SpokenLanguages' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Demographics" File="Demographic.cs" Line="29">Change 'List&lt;SpokenLanguage&gt;' in 'Demographic.SpokenLanguages' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Language" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Anocrym" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Anocrym" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Demographics" File="Language.cs" Line="17">Correct the spelling of 'Anocrym' in member name 'Language.Anocrym' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Demographics" File="Language.cs" Line="15">'Language.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SpokenLanguage" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Demographics" File="SpokenLanguage.cs" Line="16">'SpokenLanguage.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.User.Emotion">
+       <Types>
+        <Type Name="EmotionalState" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Emotion" File="EmotionalState.cs" Line="20">'EmotionalState.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.User.InterestPreferences">
+       <Types>
+        <Type Name="Interest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\InterestPreferences" File="Interest.cs" Line="17">'Interest.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#Items" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\InterestPreferences" File="Interest.cs" Line="19">Change 'Interest.Items' to be read-only by removing the property setter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="InterestPreference" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\InterestPreferences" File="InterestPreference.cs" Line="17">'InterestPreference.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#Interest" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\InterestPreferences" File="InterestPreference.cs" Line="18">Change 'InterestPreference.Interest' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\InterestPreferences" File="InterestPreference.cs" Line="18">Change 'List&lt;Interest&gt;' in 'InterestPreference.Interest' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Preference" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\InterestPreferences" File="InterestPreference.cs" Line="19">Change 'InterestPreference.Preference' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\InterestPreferences" File="InterestPreference.cs" Line="19">Change 'List&lt;Preference&gt;' in 'InterestPreference.Preference' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Preference" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\InterestPreferences" File="Preference.cs" Line="16">'Preference.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.User.Mental">
+       <Types>
+        <Type Name="CognitiveStyle" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Mental" File="CognitiveStyle.cs" Line="16">'CognitiveStyle.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Mental" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">The type name 'Mental' conflicts in whole or in part with the namespace name 'UM4RS.User.Mental'. Change either name to eliminate the conflict.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#CognitiveStyle" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Mental" File="Mental.cs" Line="21">Change 'Mental.CognitiveStyle' to be read-only by removing the property setter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Mental" File="Mental.cs" Line="19">'Mental.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#MentalState" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Mental" File="Mental.cs" Line="20">Change 'Mental.MentalState' to be read-only by removing the property setter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Mood" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Mental" File="Mental.cs" Line="23">Change 'Mental.Mood' to be read-only by removing the property setter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MentalState" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Mental" File="MentalState.cs" Line="17">'MentalState.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Mood" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Mental" File="Mood.cs" Line="16">'Mood.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.User.Personality">
+       <Types>
+        <Type Name="PersonalityAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldNotHaveIncorrectSuffix" Category="Microsoft.Naming" CheckId="CA1711" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+           <Issue Name="TypeNoAlternate" Certainty="95" Level="CriticalError">Rename type name 'PersonalityAttribute' so that it does not end in 'Attribute'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Personality" File="PersonalityAttribute.cs" Line="16">'PersonalityAttribute.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.User.Physiological">
+       <Types>
+        <Type Name="Arm" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Hands" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="Arm.cs" Line="16">Change 'Arm.Hands' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="Arm.cs" Line="16">Change 'List&lt;Hand&gt;' in 'Arm.Hands' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="BodyPart" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="BodyPart.cs" Line="16">'BodyPart.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ColorBlindness" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="ColorBlindness" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+           <Issue Name="TypeShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'ColorBlindness' in type name 'ColorBlindness' exists as a discrete term. If your usage is intended to be single word, case it as 'Colorblindness'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#ConeMonochromacy" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Monochromacy" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="ColorBlindness.cs" Line="17">Correct the spelling of 'Monochromacy' in member name 'ColorBlindness.ConeMonochromacy' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Deuteranopia" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Deuteranopia" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="ColorBlindness.cs" Line="19">Correct the spelling of 'Deuteranopia' in member name 'ColorBlindness.Deuteranopia' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Protanopia" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Protanopia" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="ColorBlindness.cs" Line="18">Correct the spelling of 'Protanopia' in member name 'ColorBlindness.Protanopia' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RodMonochromacy" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Monochromacy" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="ColorBlindness.cs" Line="16">Correct the spelling of 'Monochromacy' in member name 'ColorBlindness.RodMonochromacy' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Tritanopia" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Tritanopia" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="ColorBlindness.cs" Line="20">Correct the spelling of 'Tritanopia' in member name 'ColorBlindness.Tritanopia' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Disability" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="Disability.cs" Line="16">'Disability.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Head" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#HairLong" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="long" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Name="LanguageSpecificMember" Certainty="75" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="Head.cs" Line="18">Consider replacing the language-specific data type identifier 'Long' in member name 'Head.HairLong' with either a language-independent equivalent or a more generic term, such as 'value'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MuscoloskeletalDisability" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Muscoloskeletal" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Muscoloskeletal' in type name 'MuscoloskeletalDisability'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="PhysiologicalState" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="PhysiologicalState.cs" Line="15">'PhysiologicalState.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Physiology" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Arms" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="Physiology.cs" Line="20">Change 'Physiology.Arms' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="Physiology.cs" Line="20">Change 'List&lt;Arm&gt;' in 'Physiology.Arms' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Disabilities" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="Physiology.cs" Line="19">Change 'Physiology.Disabilities' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="Physiology.cs" Line="19">Change 'List&lt;Disability&gt;' in 'Physiology.Disabilities' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Feet" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="Physiology.cs" Line="21">Change 'Physiology.Feet' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="Physiology.cs" Line="21">Change 'List&lt;Foot&gt;' in 'Physiology.Feet' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="Physiology.cs" Line="16">'Physiology.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#PhysiologicalStates" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="Physiology.cs" Line="22">Change 'Physiology.PhysiologicalStates' to be read-only by removing the property setter.</Issue>
+            </Message>
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="Error" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Physiological" File="Physiology.cs" Line="22">Change 'List&lt;PhysiologicalState&gt;' in 'Physiology.PhysiologicalStates' to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UM4RS.User.Role">
+       <Types>
+        <Type Name="Role" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">The type name 'Role' conflicts in whole or in part with the namespace name 'UM4RS.User.Role'. Change either name to eliminate the conflict.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Id" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Id(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2016-08-26 23:37:56Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\User\Role" File="Role.cs" Line="17">'Role.Id.set(int)' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>Assemblies should have valid strong names</Name>
+   <Description>Either the assembly has no strong name, an invalid one, or the strong name is valid only because of the computer configuration. The assembly should not be deployed in this state. The most common causes of this are: 1) The assembly's contents were modified after it was signed. 2) The signing process failed. 3) The assembly was delay-signed. 4) A registry key existed that allowed the check to pass (where it would not have otherwise).</Description>
+   <Resolution Name="NoStrongName">Sign {0} with a strong name key.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182127.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020">
+   <Name>Avoid namespaces with few types</Name>
+   <Description>A namespace should generally have more than five types.</Description>
+   <Resolution Name="Default">Consider merging the types defined in '{0}' with another namespace.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182130.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Avoid uncalled private code</Name>
+   <Description>There is uncalled code that is not externally visible and is not a known runtime entry point. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
+   <Resolution Name="Default">{0} appears to have no upstream public or protected callers.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="CallGCSuppressFinalizeCorrectly" Category="Microsoft.Usage" CheckId="CA1816">
+   <Name>Call GC.SuppressFinalize correctly</Name>
+   <Description>Call GC.SuppressFinalize to suppress finalization of your instance once Dispose has been called. Objects that implement IDisposable should call SuppressFinalize from the IDisposable.Dispose method to prevent the garbage collector from calling Object.Finalize on an object that does not require it.</Description>
+   <Resolution Name="NotCalled">Change {0} to call {1}. This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182269.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227">
+   <Name>Collection properties should be read only</Name>
+   <Description>Properties that return collections should be read-only so that users cannot entirely replace the backing store. Users can still modify the contents of the collection by calling relevant methods on the collection. Note that the XmlSerializer class has special support for deserializing read-only collections. See the XmlSerializer overview for more information.</Description>
+   <Resolution Name="Default">Change {0} to be read-only by removing the property setter.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182327.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702">
+   <Name>Compound words should be cased correctly</Name>
+   <Description>Avoid creating compound words from terms which exist in the dictionary as discrete terms. Do not create a compound word such as 'StopWatch' or 'PopUp'. These terms are recognized in the dictionary and should be cased as 'Stopwatch' and 'Popup'.</Description>
+   <Resolution Name="MemberShouldBeDiscreteTerm">The compound word '{0}' in member name {1} exists as a discrete term. If your usage is intended to be single word, case it as '{2}' or strip the first token entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="TypeShouldBeDiscreteTerm">The compound word '{0}' in type name {1} exists as a discrete term. If your usage is intended to be single word, case it as '{2}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264474.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="80">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>Dispose objects before losing scope</Name>
+   <Description>If a disposable object is not explicitly disposed before all references to it are out of scope, the object will be disposed at some indeterminate time when the garbage collector runs the finalizer of the object. Because an exceptional event might occur that will prevent the finalizer of the object from running, the object should be explicitly disposed instead.</Description>
+   <Resolution Name="ExceptionEdge">In method {0}, object {1} is not disposed along all exception paths. Call System.IDisposable.Dispose on object {1} before all references to it are out of scope.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214">
+   <Name>Do not call overridable methods in constructors</Name>
+   <Description>Virtual methods defined on the class should not be called from constructors. If a derived class has overridden the method, the derived class version will be called (before the derived class constructor is called).</Description>
+   <Resolution Name="Default">{0} contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: {1}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182331.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotDeclareStaticMembersOnGenericTypes" Category="Microsoft.Design" CheckId="CA1000">
+   <Name>Do not declare static members on generic types</Name>
+   <Description>The syntax for calling static members on generic types is complex as the type parameter has to be specified for each call.</Description>
+   <Resolution Name="Default">Remove {0} from {1} or make it an instance member.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182139.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002">
+   <Name>Do not expose generic lists</Name>
+   <Description>Do not expose List&lt;T&gt; in object models. Use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt; instead. List&lt;T&gt; is meant to be used from implementation, not in object model API. List&lt;T&gt; is optimized for performance at the cost of long term versioning. For example, if you return List&lt;T&gt; to the client code, you will not ever be able to receive notifications when client code modifies the collection.</Description>
+   <Resolution Name="Default">Change {0} in {1} to use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; or KeyedCollection&lt;K,V&gt;</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182142.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotNestGenericTypesInMemberSignatures" Category="Microsoft.Design" CheckId="CA1006">
+   <Name>Do not nest generic types in member signatures</Name>
+   <Description>Avoid API that require users to instantiate a generic type with another generic type as type argument. The syntax gets too complex.</Description>
+   <Resolution Name="Default">Consider a design where {0} doesn't nest generic type {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182144.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+   <Name>Identifiers should be cased correctly</Name>
+   <Description>Type, namespace, and member identifiers are Pascal-cased. Parameter identifiers are camel-cased. Two letter acronyms within these identifiers should be upper-cased, for example, use System.IO instead of System.Io. Acronyms of three or more letters should be Pascal-cased, for example, use System.Xml instead of System.XML. The pascal-casing convention capitalizes the first letter of each word, as in BackColor. The camel-casing convention formats the first letter of the first word in lowercase and capitalizes the first letter of all subsequent words, as in backgroundColor. Although it may be common practice for some two letter acronyms to not be fully capitalized, violations of this rule should not be excluded for this reason. For example, 'DbConnection', is common but incorrect; use DBConnection. A violation of this rule might be required for compatibility with existing, non-managed symbol schemes. In general, however, these symbols should not be visible outside the assembly that uses them.</Description>
+   <Resolution Name="Member">Correct the casing of '{0}' in member name {1} by changing it to '{2}'.</Resolution>
+   <Resolution Name="Type">Correct the casing of '{0}' in type name {1} by changing it to '{2}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182240.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="Member">Correct the spelling of '{0}' in member name {1} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberParameter">In method {0}, correct the spelling of '{1}' in parameter name {2} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberParameterMoreMeaningfulName">In method {0}, consider providing a more meaningful name than parameter name {1}.</Resolution>
+   <Resolution Name="Namespace">Correct the spelling of '{0}' in namespace name '{1}'.</Resolution>
+   <Resolution Name="Type">Correct the spelling of '{0}' in type name {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264492.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="namingrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720">
+   <Name>Identifiers should not contain type names</Name>
+   <Description>Avoid using language-specific types name in parameters and members and data type identifiers in parameters. Types names might not be intuitive for all developers. It is recommended that you select a generic name, such as 'value', instead. If this is not sufficient, be sure to use the type name as it is defined in the .NET Framework Library and avoid language-specific type names completely. Some examples of C#-specific type names are 'float' (use 'Single' if a generic name is not sufficient), and 'ulong' (use 'UInt64' if a generic name is not sufficient).</Description>
+   <Resolution Name="LanguageSpecificMember">Consider replacing the language-specific data type identifier '{0}' in member name {1} with either a language-independent equivalent or a more generic term, such as 'value'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb531486.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707">
+   <Name>Identifiers should not contain underscores</Name>
+   <Description>Do not use underscores when specifying identifiers. Some generated Visual Studio identifiers for applications contain underscore characters. Underscore characters should generally be avoided in public identifiers.</Description>
+   <Resolution Name="Member">Remove the underscores from member name {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182245.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldNotHaveIncorrectSuffix" Category="Microsoft.Naming" CheckId="CA1711">
+   <Name>Identifiers should not have incorrect suffix</Name>
+   <Description>Types that do not extend certain base types should not use reserved name suffixes. Types and members should not use 'Ex' or 'New' to distinguish them from an earlier version of the same API, instead, use a numeric suffix such as '2' or provide a more meaningful suffix. Concrete type implementations and members should not end 'Impl'. Members instead, should either consider using the suggested alternate 'Core' in replacement of 'Impl' or avoid any suffix at all.</Description>
+   <Resolution Name="TypeNoAlternate">Rename type name {0} so that it does not end in '{1}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182247.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="namingrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063">
+   <Name>Implement IDisposable correctly</Name>
+   <Description>All IDisposable types should implement the Dispose pattern correctly.</Description>
+   <Resolution Name="DisposeImplementation">Modify {0} so that it calls Dispose(true), then calls GC.SuppressFinalize on the current object instance ('this' or 'Me' in Visual Basic), and then returns.</Resolution>
+   <Resolution Name="DisposeSignature">Ensure that {0} is declared as public and sealed.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms244737.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204">
+   <Name>Literals should be spelled correctly</Name>
+   <Description>This rule parses the literal string into words, tokenizing compound words, and checks the spelling of each word/token.</Description>
+   <Resolution Name="Default">Correct the spelling of the unrecognized token '{0}' in the literal '{1}'.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/bb264488.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014">
+   <Name>Mark assemblies with CLSCompliantAttribute</Name>
+   <Description>Assemblies should explicitly state their CLS compliance using the CLSCompliant attribute. An assembly without this attribute is not CLS-compliant. Assemblies, modules, and types can be CLS-compliant even if some parts of the assembly, module, or type are not CLS-compliant. The following rules apply: 1) If the element is marked CLSCompliant, any noncompliant members must have the CLSCompliant attribute present with its argument set to false. 2) A comparable CLS-compliant alternative member must be supplied for each member that is not CLS-compliant.</Description>
+   <Resolution Name="Default">Mark {0} with CLSCompliant(true) because it exposes externally visible types.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182156.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717">
+   <Name>Only FlagsAttribute enums should have plural names</Name>
+   <Description>Plural names indicate that the values of the enumeration can be combined. For example, an enumeration named 'Day' indicates a single day, and an enumeration named 'Days' indicates multiple days. Enumeration values should be combined using the bit-wise OR operator only if the Flags attribute is present on the enumeration.</Description>
+   <Resolution Name="Default">If the name {0} is plural, change it to its singular form.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264487.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="PropertyNamesShouldNotMatchGetMethods" Category="Microsoft.Naming" CheckId="CA1721">
+   <Name>Property names should not match get methods</Name>
+   <Description>A Get method was found with the same name as a property. Get methods and properties should have names that clearly distinguish their function. See the design guidelines for information regarding choosing properties over methods.</Description>
+   <Resolution Name="BaseType">The property name {0} is confusing given the existence of inherited method {1}. Rename or remove this property.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182253.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724">
+   <Name>Type names should not match namespaces</Name>
+   <Description>Identifiers which conflict in whole or in part with namespace names should be avoided. Names that describe the purpose or contents of a type are preferred.</Description>
+   <Resolution Name="Default">The type name {0} conflicts in whole or in part with the namespace name '{1}'. Change either name to eliminate the conflict.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182257.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="UriPropertiesShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1056">
+   <Name>URI properties should not be strings</Name>
+   <Description>If a property name contains "uri" or "url" or "urn" and it's typed as string, it should be changed to System.Uri.</Description>
+   <Resolution Name="Default">Change the type of property {0} from string to System.Uri.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182175.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024">
+   <Name>Use properties where appropriate</Name>
+   <Description>Properties should be used instead of Get/Set methods in most situations. Methods are preferable to properties in the following situations: the operation is a conversion, is expensive or has an observable side-effect; the order of execution is important; calling the member twice in succession creates different results; a member is static but returns a mutable value; or the member returns an array.</Description>
+   <Resolution Name="Default">Change {0} to a property if appropriate.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182181.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062">
+   <Name>Validate arguments of public methods</Name>
+   <Description>All reference arguments passed to externally visible methods should be checked against null (Nothing in VB). If appropriate, throw a System.ArgumentNullException when the argument is null.</Description>
+   <Resolution Name="Default">In externally visible method {0}, validate parameter '{1}' before using it.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182182.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="14.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

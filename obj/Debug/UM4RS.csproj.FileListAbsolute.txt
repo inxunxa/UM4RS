@@ -1,0 +1,59 @@
+F:\sinzunza@uabc.edu.mx\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\obj\Debug\UM4RS.csprojResolveAssemblyReference.cache
+F:\sinzunza@uabc.edu.mx\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\obj\Debug\UM4RS.dll
+F:\sinzunza@uabc.edu.mx\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\obj\Debug\UM4RS.pdb
+F:\sinzunza@uabc.edu.mx\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\UM4RS.dll.config
+F:\sinzunza@uabc.edu.mx\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\UM4RS.dll
+F:\sinzunza@uabc.edu.mx\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\UM4RS.pdb
+F:\sinzunza@uabc.edu.mx\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.BulkInsert.dll
+F:\sinzunza@uabc.edu.mx\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.dll
+F:\sinzunza@uabc.edu.mx\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.MappingAPI.dll
+F:\sinzunza@uabc.edu.mx\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.SqlServer.dll
+F:\sinzunza@uabc.edu.mx\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\Linq2Csv.dll
+F:\sinzunza@uabc.edu.mx\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.xml
+F:\sinzunza@uabc.edu.mx\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.BulkInsert.pdb
+F:\sinzunza@uabc.edu.mx\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.MappingAPI.pdb
+F:\sinzunza@uabc.edu.mx\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.SqlServer.xml
+F:\sinzunza@uabc.edu.mx\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\Linq2Csv.pdb
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\UM4RS.dll.config
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\UM4RS.dll
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\UM4RS.pdb
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.BulkInsert.dll
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.dll
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.SqlServer.dll
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\Linq2Csv.dll
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.xml
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.BulkInsert.pdb
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.SqlServer.xml
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\Linq2Csv.pdb
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\obj\Debug\UM4RS.dll
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\obj\Debug\UM4RS.pdb
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.MappingAPI.pdb
+D:\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\obj\Debug\UM4RS.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\UM4RS.dll.config
+\\vmware-host\Shared Folders\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\UM4RS.dll
+\\vmware-host\Shared Folders\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\UM4RS.pdb
+\\vmware-host\Shared Folders\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.BulkInsert.dll
+\\vmware-host\Shared Folders\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.dll
+\\vmware-host\Shared Folders\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.SqlServer.dll
+\\vmware-host\Shared Folders\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\Linq2Csv.dll
+\\vmware-host\Shared Folders\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.xml
+\\vmware-host\Shared Folders\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.BulkInsert.pdb
+\\vmware-host\Shared Folders\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\EntityFramework.SqlServer.xml
+\\vmware-host\Shared Folders\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\bin\Debug\Linq2Csv.pdb
+\\vmware-host\Shared Folders\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\obj\Debug\UM4RS.dll
+\\vmware-host\Shared Folders\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\obj\Debug\UM4RS.pdb
+\\vmware-host\Shared Folders\Drive\Escuela\Doctorado\Investigacion\UserModel2\CSharp\UM4RS\obj\Debug\UM4RS.csprojResolveAssemblyReference.cache
+C:\Users\sergi\Desktop\CSharp\UM4RS\bin\Debug\UM4RS.dll.config
+C:\Users\sergi\Desktop\CSharp\UM4RS\bin\Debug\UM4RS.dll
+C:\Users\sergi\Desktop\CSharp\UM4RS\bin\Debug\UM4RS.pdb
+C:\Users\sergi\Desktop\CSharp\UM4RS\bin\Debug\EntityFramework.BulkInsert.dll
+C:\Users\sergi\Desktop\CSharp\UM4RS\bin\Debug\EntityFramework.dll
+C:\Users\sergi\Desktop\CSharp\UM4RS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sergi\Desktop\CSharp\UM4RS\bin\Debug\Linq2Csv.dll
+C:\Users\sergi\Desktop\CSharp\UM4RS\bin\Debug\EntityFramework.xml
+C:\Users\sergi\Desktop\CSharp\UM4RS\bin\Debug\EntityFramework.BulkInsert.pdb
+C:\Users\sergi\Desktop\CSharp\UM4RS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sergi\Desktop\CSharp\UM4RS\bin\Debug\Linq2Csv.pdb
+C:\Users\sergi\Desktop\CSharp\UM4RS\obj\Debug\UM4RS.dll
+C:\Users\sergi\Desktop\CSharp\UM4RS\obj\Debug\UM4RS.pdb
+C:\Users\sergi\Desktop\CSharp\UM4RS\obj\Debug\UM4RS.csprojResolveAssemblyReference.cache
