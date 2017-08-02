@@ -1,3 +1,9 @@
+.gsc-results-wrapper-overlay{
+    z-index: 9999999;
+    margin-top: 90px;
+    margin-left: 49px;
+}
+
 /* Copyright (c) Microsoft Corporation. All Rights Reserved. Licensed under the MIT License. See License.txt in the project root for license information. */
 html,
 body {
