@@ -1,3 +1,9 @@
+.gsc-results-wrapper-overlay{
+    z-index: 9999999;
+    margin-top: 90px;
+    margin-left: 49px;
+}
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
