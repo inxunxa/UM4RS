@@ -1,7 +1,7 @@
 .gsc-results-wrapper-overlay{
-    z-index: 9999999;
-    margin-top: 90px;
-    margin-left: 49px;
+    z-index: 9999999 !important;
+    margin-top: 90px !important;
+    margin-left: 49px !important;
 }
 
 .sidefilter{
