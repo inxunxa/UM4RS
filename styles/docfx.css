@@ -4,6 +4,11 @@
     margin-left: 49px;
 }
 
+.sidefilter{
+  z-index: 2 !important;
+  padding-bottom: 0px !important;
+}
+
 /* Copyright (c) Microsoft Corporation. All Rights Reserved. Licensed under the MIT License. See License.txt in the project root for license information. */
 html,
 body {
