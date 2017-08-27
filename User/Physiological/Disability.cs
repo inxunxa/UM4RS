@@ -13,6 +13,8 @@ namespace UM4RS.User.Physiological
     [Table("Disablity")]
     public abstract class Disability : ModelEntity<Disability>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
+
+        public string Name { get; set; }
     }
 }

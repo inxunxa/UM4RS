@@ -12,7 +12,7 @@ namespace UM4RS.Context.Physicalcondition {
     [Table("Noise")]
     public class Noise : ModelEntity<Noise>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public float Intensity{get; set;}
 
 

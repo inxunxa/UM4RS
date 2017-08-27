@@ -12,7 +12,7 @@ namespace UM4RS.Context.Location {
     [Table("PhysicalLocation")]
     public class PhysicalLocation : ModelEntity<PhysicalLocation>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public string Name{get; set;}
 		public bool InDoor{get; set;}
         public Address Address { get; set; }

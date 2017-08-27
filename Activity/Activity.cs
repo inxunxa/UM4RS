@@ -23,7 +23,7 @@ namespace UM4RS.Activity {
         /// Unique identifier
         /// </summary>
         [NonExportable]
-        public int Id { get; private set; }
+        public int Id { get; set; }
         
         /// <summary>
         /// Name of the activity

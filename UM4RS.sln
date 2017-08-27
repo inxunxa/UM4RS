@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UM4RS", "UM4RS.csproj", "{240D272A-2EA0-413B-9936-A1AA84AF30AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{240D272A-2EA0-413B-9936-A1AA84AF30AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{240D272A-2EA0-413B-9936-A1AA84AF30AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{240D272A-2EA0-413B-9936-A1AA84AF30AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{240D272A-2EA0-413B-9936-A1AA84AF30AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1B6D788-6906-4B5A-B643-6F9E41898E1E}
+	EndGlobalSection
+EndGlobal

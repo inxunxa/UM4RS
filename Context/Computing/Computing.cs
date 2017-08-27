@@ -13,7 +13,7 @@ namespace UM4RS.Context.Computing {
     [Table("Computing")]
     public class Computing : ModelEntity<Computing>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public System.Collections.Generic.List<Hardware> Hardware{get; set;}
 		public Network Network{get; set;}
 		public Software Software{get; set;}

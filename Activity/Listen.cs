@@ -20,5 +20,9 @@ namespace UM4RS.Activity {
         /// The Audio object Listened
         /// </summary>
         public Audio Audio { get; set; }
+
+
+        // The service through
+        public AudioService AudioService { get; set; }
     }
 }

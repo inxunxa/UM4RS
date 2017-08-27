@@ -21,7 +21,7 @@ namespace UM4RS.User.Demographics
 
         // Class Attributes
         [NonExportable]
-        public int Id { get; private set; }
+        public int Id { get; set; }
 
         public int Age { get; set; }
 

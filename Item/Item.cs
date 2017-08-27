@@ -6,6 +6,8 @@
 // This file is part of User Model for Context-Aware Recommender Systems (UM4RS) and is dual licensed under MS-PL and Apache 2.0.
 // https://github.com/inxunxa/UM4RS
 
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using Linq2Csv.DataAnnotations;
 
@@ -14,7 +16,7 @@ namespace UM4RS.Item {
     public abstract class Item<TObject> : ModelEntity<TObject>, IBaseEntity where TObject : class, IBaseEntity
     { 
         [Exportable(Name="ItemId", GlobalOrder = 1)]
-       // [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Id { get; set; }
 
         [Exportable]
@@ -25,6 +27,8 @@ namespace UM4RS.Item {
 
         [NonExportable]
         public string Image { get; set; }
+
+        public ICollection<ModelAttribute> Attributes { get; set; }
 
     }
 

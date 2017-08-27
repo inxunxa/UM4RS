@@ -14,7 +14,7 @@ namespace UM4RS.User.Role
     [Table("Role")]
     public class Role : ModelEntity<Role>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public string Name { get; set; }
 
         public bool IsCurrentRole { get; set; }

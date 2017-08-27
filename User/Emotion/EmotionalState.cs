@@ -17,7 +17,7 @@ namespace UM4RS.User.Emotion
     public class EmotionalState : ModelEntity<EmotionalState>, IBaseEntity
     {
         [NonExportable]
-        public int Id { get; private set; }
+        public int Id { get; set; }
 
         [Exportable(Name = "Emotion", Order = 1)]
         public string Name { get; set; }

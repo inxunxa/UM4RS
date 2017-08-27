@@ -14,7 +14,7 @@ namespace UM4RS.Context.Physicalcondition {
     public class Weather : ModelEntity<Weather>, IBaseEntity
     {
         [NonExportable]
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public string Condition{get; set;}
 
         [NonExportable]

@@ -15,7 +15,7 @@ namespace UM4RS.Context.Time {
     public class Time : ModelEntity<Time>, IBaseEntity
     {
         [NonExportable]
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public DateTime? TimeStamp{get; set;}
 		public DateTime? TimeInterval{get; set;}
 		public DayOfWeek DayOfWeek{get; set;}

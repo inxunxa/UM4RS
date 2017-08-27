@@ -13,7 +13,7 @@ namespace UM4RS.Item {
     [Table("VideService")]
     public class VideoService : ModelEntity<VideoService>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public string Name{get; set;}
 		public DigitalLocation DigitalLocation{get; set;}
 

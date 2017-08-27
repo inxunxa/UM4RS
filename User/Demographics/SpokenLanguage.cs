@@ -13,7 +13,7 @@ namespace UM4RS.User.Demographics
     [Table("SpokenLaguage")]
     public class SpokenLanguage : ModelEntity<SpokenLanguage>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public int Fluency { get; set; }
         public Language Language { get; set; }
     }

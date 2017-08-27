@@ -12,7 +12,7 @@ namespace UM4RS.Context.Computing {
     [Table("DisplayResolution")]
     public class DisplayResolution : ModelEntity<DisplayResolution>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public int PixelWidth{get; set;}
 		public int PixelHeight{get; set;}
 

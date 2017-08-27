@@ -13,7 +13,7 @@ namespace UM4RS.User.Personality
     [Table("PersonalityAttribute")]
     public class PersonalityAttribute : ModelEntity<PersonalityAttribute>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public float Level { get; set; }
         public string Name { get; set; }
     }

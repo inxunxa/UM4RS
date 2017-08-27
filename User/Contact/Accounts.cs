@@ -21,7 +21,7 @@ namespace UM4RS.User.Contact
         /// Unique identifier
         /// </summary>
         [NonExportable]
-        public int Id { get; private set; }
+        public int Id { get; set; }
 
         /// <summary>
         /// The identifier of the System

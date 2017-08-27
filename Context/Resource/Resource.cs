@@ -12,10 +12,10 @@ namespace UM4RS.Context.Resource {
     [Table("Resource")]
     public class Resource : ModelEntity<Resource>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public string Name{get; set;}
-
-
+        public string Value { get; set; }
+        public string Type { get; set; }
 	}
 
 }

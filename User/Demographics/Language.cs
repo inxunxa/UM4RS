@@ -12,7 +12,7 @@ namespace UM4RS.User.Demographics {
     [Table("Language")]
     public class Language : ModelEntity<Language>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public string Name{get; set;}
 		public string Acronym{get; set;}
 	}

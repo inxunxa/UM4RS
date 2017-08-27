@@ -13,7 +13,7 @@ namespace UM4RS.User.Physiological
     [Table("BodyPart")]
     public abstract class BodyPart : ModelEntity<BodyPart>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public float Movement { get; set; }
         public float Control { get; set; }
         public bool Presence { get; set; }

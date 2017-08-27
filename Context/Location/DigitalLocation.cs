@@ -12,7 +12,7 @@ namespace UM4RS.Context.Location {
     [Table("DigitalLocation")]
     public class DigitalLocation : ModelEntity<DigitalLocation>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public string Url{get; set;}
 		public string Name{get; set;}
     }

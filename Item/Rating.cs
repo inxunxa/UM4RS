@@ -14,7 +14,7 @@ namespace UM4RS.Item {
     public class Rating : ModelEntity<Rating>, IBaseEntity
     {
         [NonExportable]
-        public int Id { get; private set; }
+        public int Id { get; set; }
 
         [Exportable(Name = "rating", GlobalOrder = 2)]
         public int Rate{get; set;}

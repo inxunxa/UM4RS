@@ -119,6 +119,7 @@
     <Compile Include="Item\Video.cs" />
     <Compile Include="Item\VideoGenres.cs" />
     <Compile Include="Item\VideoService.cs" />
+    <Compile Include="ModelAttribute.cs" />
     <Compile Include="ModelORM.cs" />
     <Compile Include="ModelEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -13,7 +13,7 @@ namespace UM4RS.User.Physiological {
     [Table("Physiology")]
     public class Physiology : ModelEntity<Physiology>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public int HeadBodyPartId{get; set;}
 		public Head Head{get; set;}
 		public List<Disability> Disabilities{get; set;}

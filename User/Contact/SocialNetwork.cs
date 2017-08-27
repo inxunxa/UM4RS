@@ -38,5 +38,10 @@ namespace UM4RS.User.Contact
         /// The URL of the website
         /// </summary>
         public string Url { get; set; }
+
+        /// <summary>
+        /// Name of the Social network to witch the user is afilliated       
+        /// </summary>
+        public string SocialNetworkName { get; set; }
     }
 }

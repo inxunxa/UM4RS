@@ -12,7 +12,7 @@ namespace UM4RS.Context.Computing {
     [Table("Software")]
     public class Software : ModelEntity<Software>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public string Name{get; set;}
 		public string Version{get; set;}
 		public string Vendor{get; set;}

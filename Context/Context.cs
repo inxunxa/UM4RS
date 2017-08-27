@@ -27,9 +27,11 @@ namespace UM4RS.Context {
         public virtual Time.Time Time { get; set; }
         public virtual Computing.Computing Computing { get; set; }
         public virtual PhysicalCondition PhysicalCondition { get; set; }
-        public virtual Resource.Resource Resource { get; set; }
+        public virtual ICollection<Resource.Resource> Resources { get; set; }
         public virtual ICollection<SocialRelation> SocialRelation { get; set; }
         public virtual Place Place { get; set; }
+
+        //public ICollection<ModelAttribute> Attributes { get; set; }
 
         public Context()
         {

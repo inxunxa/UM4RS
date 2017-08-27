@@ -13,7 +13,7 @@ namespace UM4RS.User.Mental
     [Table("CognitiveStyle")]
     public class CognitiveStyle : ModelEntity<CognitiveStyle>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public float Intensity { get; set; }
 

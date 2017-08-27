@@ -57,3 +57,9 @@ C:\Users\sergi\Desktop\CSharp\UM4RS\bin\Debug\Linq2Csv.pdb
 C:\Users\sergi\Desktop\CSharp\UM4RS\obj\Debug\UM4RS.dll
 C:\Users\sergi\Desktop\CSharp\UM4RS\obj\Debug\UM4RS.pdb
 C:\Users\sergi\Desktop\CSharp\UM4RS\obj\Debug\UM4RS.csprojResolveAssemblyReference.cache
+D:\Repo\UM4RS\obj\Debug\UM4RS.csproj.CoreCompileInputs.cache
+D:\Repo\UM4RS\obj\Debug\UM4RS.dll
+D:\Repo\UM4RS\obj\Debug\UM4RS.pdb
+D:\Repo\UM4RS\bin\Debug\UM4RS.dll.config
+D:\Repo\UM4RS\bin\Debug\UM4RS.dll
+D:\Repo\UM4RS\bin\Debug\UM4RS.pdb

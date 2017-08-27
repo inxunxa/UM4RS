@@ -14,7 +14,7 @@ namespace UM4RS.User.Mental
     [Table("MentalState")]
     public class MentalState : ModelEntity<MentalState>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public int Level { get; set; }
         public DateTime ActivationTime { get; set; }

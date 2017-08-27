@@ -12,7 +12,7 @@ namespace UM4RS.User.Physiological {
     [Table("PhysiologicalState")]
     public class PhysiologicalState : ModelEntity<PhysiologicalState>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public string Name{get; set;}
 		public bool IsNormal{get; set;}
 		public float Level{get; set;}

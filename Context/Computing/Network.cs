@@ -12,7 +12,7 @@ namespace UM4RS.Context.Computing {
     [Table("Network")]
     public class Network : ModelEntity<Network>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public string Bandwidth{get; set;}
 		public NetworkType NetworkType{get; set;}
 	}

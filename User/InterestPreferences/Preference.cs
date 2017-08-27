@@ -14,7 +14,7 @@ namespace UM4RS.User.InterestPreferences
     [Table("Preference")]
     public class Preference : ModelEntity<Preference>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
 
         public string Name { get; set; }
         

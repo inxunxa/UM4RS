@@ -14,7 +14,7 @@ namespace UM4RS.User.InterestPreferences
     [Table("Interest")]
     public class Interest : ModelEntity<Interest>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public string Topic { get; set; }
         public virtual ICollection<Item.Item<IBaseEntity>> Items { get; set; } = new List<Item.Item<IBaseEntity>>();
 

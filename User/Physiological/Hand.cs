@@ -13,7 +13,7 @@ namespace UM4RS.User.Physiological {
     public class Hand : BodyPart 
 	{
 		public int HandSize{get; set;}
-		public int RightSize{get; set;}
+		public int Ring{get; set;}
 		public int ArmBodyPartId{get; set;}
 		public BodySide Side{get; set;}
 

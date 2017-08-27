@@ -13,7 +13,7 @@ namespace UM4RS.Context.Location
     [Table("Address")]
     public class Address : ModelEntity<Address>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public string Street { get; set; }
         public string HouseNumber { get; set; }
         public string City { get; set; }

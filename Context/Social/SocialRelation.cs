@@ -15,7 +15,7 @@ namespace UM4RS.Context.Social {
     public class SocialRelation : ModelEntity<SocialRelation>, IBaseEntity
     {
         [NonExportable]
-        public int Id { get; private set; }
+        public int Id { get; set; }
 
         public SocialRelationType RelationType{get; set;}
 

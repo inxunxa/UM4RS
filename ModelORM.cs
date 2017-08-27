@@ -77,6 +77,8 @@ namespace UM4RS
 
         public DbSet<Listen> Listens { get; set; }
 
+        public DbSet<Audio> Audios { get; set; }
+
         public DbSet<Travel> Travels { get; set; }
 
         public DbSet<Purchase> Purchases { get; set; }

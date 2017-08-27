@@ -12,7 +12,7 @@ namespace UM4RS.Context.Physicalcondition {
     [Table("Light")]
     public class Light : ModelEntity<Light>, IBaseEntity
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public float Intensity{get; set;}
 		public LightSource Source{get; set;}
 

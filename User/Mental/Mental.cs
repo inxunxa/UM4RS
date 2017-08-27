@@ -16,7 +16,7 @@ namespace UM4RS.User.Mental
     public class Mental : ModelEntity<Mental>, IBaseEntity
     {
         [NonExportable]
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public virtual ICollection<MentalState> MentalState { get; set; } = new List<MentalState>();
         public virtual ICollection<CognitiveStyle> CognitiveStyle { get; set; } = new List<CognitiveStyle>();
         public virtual MentalStress MentalStress { get; set; }
